@@ -7,16 +7,16 @@ public class H3_main {
 	int j = 8;
 	int k = -10;
 	
-	if (i > j && i < 199 && j < 99){
+	if (i > j && i < 201 && j < 101){
 		k = 1;
 	}	
-	if (i > j && i > 200 && j < 99){
+	if (i > j && i > 200 && j < 101){
 		k = 2;
 	}
 	if (i > j && i > 200 && j > 100) {
 		k = 3;
 	}
-	if (i < j && i < 199 && j < 99) {
+	if (i < j && i < 201 && j < 101) {
 		k = 4;
 	}
 	System.out.println (k);
